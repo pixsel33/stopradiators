@@ -1,0 +1,208 @@
+// ENERGY //
+
+
+.main {
+    
+}
+
+.energy {
+    background-image: url('../../image/main.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1288px 673px;
+    padding-top: 42px;
+}
+
+.container {
+    
+}
+
+.energy__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.energy__span {
+    color: rgb(102, 102, 102);
+    font-family: 'PT Sans Narrow';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.energy__header {
+    color: rgb(187, 142, 52);
+    font-family: 'PT Sans Narrow';
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-bottom: 69px;
+    max-width: 724px;
+}
+
+.energy__icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 675px;
+    width: 100%;
+}
+
+.energy__icons {
+    max-width: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.energy__icons-img {
+    
+}
+
+.energy__icons-text {
+    color: rgb(102, 102, 102);
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.8%;
+    text-align: center;
+}
+
+.energy__text {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: rgb(102, 102, 102);
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.energy__btn {
+    padding: 14px 35px;
+    color: rgb(250, 250, 250);
+    font-family: 'PT Sans Narrow';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.8%;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    background: rgb(187, 142, 52);
+    transition: all 0.4s ease;
+    &:hover {
+        background-color: rgb(218, 178, 99);
+        transform: scale(1.1);
+    }
+    &:active {
+        background-color: rgb(238, 207, 146);
+        transform: scale(1);
+    }
+    margin-bottom: 32px;
+}
+
+.energy__item-wrapper {
+    padding: 20px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px 0px rgba(102, 102, 102, 0.25);
+    background: rgb(250, 250, 250);
+    max-width: 758px;
+}
+
+.energy__item-text {
+    color: rgb(117, 117, 117);
+    font-family: 'PT Sans Narrow';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.8%;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 450px)  {
+    
+    .energy {
+        background-image: url('../../image/energy__res-img.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 42px;
+    }
+    
+    .energy__wrapper {
+        
+    }
+    
+    .energy__span {
+        
+    }
+    
+    .energy__header {
+        
+        
+    }
+    
+    .energy__icons-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    
+    .energy__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        max-width: 226px;
+        width: 100%;
+        padding-bottom: 17px;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+    
+    .energy__icons-img {
+        display: inline-block;
+    }
+    
+    .energy__icons-text {
+        
+    }
+    
+    .energy__text {
+        color: rgb(250, 250, 250);
+        font-family:' PT Sans Narrow';
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0.8%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    .energy__btn {
+    }
+    
+    .energy__item-wrapper {
+        
+    }
+    
+    .energy__item-text {
+        
+    }
+}
