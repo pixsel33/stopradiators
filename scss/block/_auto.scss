@@ -1,0 +1,34 @@
+// AUTO 
+
+
+.auto {
+    
+}
+
+.auto__wrapper {
+    padding: 40px 0px;
+}
+
+.auto__header {
+    color: rgb(102, 102, 102);
+    font-family: 'PT Sans Narrow';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.8%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.auto__img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auto__img {
+    border-radius: 6px;
+    width: 320px;
+    height: 359px;
+} 

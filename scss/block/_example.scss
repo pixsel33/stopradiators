@@ -1,49 +1,108 @@
 // EXEMPLE 
 
 .example {
-
+    margin-top:  74px;
+    padding: 53px 0px 120px 0px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px 0px rgba(102, 102, 102, 0.25);
+    background: rgb(251, 251, 251);
 }
 
 .example__wrapper {
 
-}
+}  
 
 .example__header {
-
+    color: rgb(102, 102, 102);
+    font-family: 'PT Sans Narrow';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.8%;
+    text-align: center;
+    margin-bottom: 32px;
+    text-transform: uppercase;
 }
 
 .example__items-wapper {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .example__img {
-
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px 0px rgba(102, 102, 102, 0.25);
+    background: url(LEB-1);
+    width: 653.42px;
+    height: auto;
 }
 
 .example__item-wrapper {
-
+    max-width: 521px;
 }
 
 .example__location-text {
-
+    font-family:' PT Sans Narrow';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    &::before {
+        content: url('../../image/example___before.svg');
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
 }
 
 .example__price-wrapper {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 521px;
+    width: 100%;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.4);
 }
 
 .example__price-text {
-
+    color: rgb(117, 117, 117);
+    font-family: 'PT Sans Narrow';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.8%;
+    text-align: left;
 }
 
 .example__price-span {
-
+    color: rgb(187, 142, 52);
+    font-family: 'PT Sans Narrow';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8%;
+    text-align: right;
+    text-transform: uppercase;
 }
 
 .example__img-wrapper {
-
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 66px; 
 }
 
 .example__item-img {
-
+    width: 96.29px;
+    height: 95.65px;
+    transition: all 0.5s ease;
+    border-radius: 3.99px;
+    &:hover {
+        transform: scale(1.1);
+        
+    }
+    
 }
