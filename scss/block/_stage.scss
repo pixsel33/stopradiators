@@ -1,0 +1,57 @@
+// STAGE 
+
+.stage {
+    
+}
+
+.stage__wrapper {
+    
+}
+
+.stage__header {
+    text-align: center;
+}
+
+.stage__list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 10px;
+    margin-top: 30px;
+}
+
+.stage__item {
+    max-width: 312px;
+    border-radius: 0px 0px 6px 6px;
+    background: rgb(250, 250, 250); 
+}
+
+.stage__img {
+    width: 312px;
+    
+}
+
+.stage__item-item-wrapper {
+    padding: 20px 10px;
+}
+
+.satge__span {
+    color: rgb(187, 142, 52);
+    font-family: 'PT Sans Narrow';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.stage__text {
+    color: rgb(102, 102, 102);
+    font-family: 'PT Sans Narrow';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.8%;
+    text-align: left; 
+}
