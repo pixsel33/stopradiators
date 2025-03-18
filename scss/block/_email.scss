@@ -1,0 +1,220 @@
+// EMAIL 
+
+
+.email {
+  
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.email__span {
+  color: rgb(102, 102, 102);
+  font-family: 'PT Sans Narrow';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.8%;
+  text-align: left;
+}
+
+.email__header {
+  color: rgb(187, 142, 52);
+  font-family: 'PT Sans Narrow';
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.8%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+
+.email__text {
+  font-family: 'PT Sans Narrow';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.8%;
+  text-align: center;
+  color: rgb(102, 102, 102);
+  max-width: 597px;
+  margin-bottom: 20px;
+}
+
+.email__items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.email__img {
+  width: 696px;
+  height: 364px;  
+}
+
+.email__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 516px;
+  width: 100%;
+}
+
+.email__input-header {
+  font-family: 'PT Sans Narrow';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.8%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.email__form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 516px;
+  width: 100%;
+}
+
+.email__for-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.email__name-label {
+  color: rgb(102, 102, 102);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.8%;
+  text-align: left;
+}
+
+.email__name-input {
+  padding: 12px;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 3px;
+  background: rgb(250, 250, 250);
+  color: rgb(117, 117, 117);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.8%;
+  text-align: left;
+  width: 246px;
+}
+
+.email__phone-label {
+  color: rgb(102, 102, 102);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.8%;
+  text-align: left;
+}
+
+.email__phone-input {
+  padding: 12px;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 3px;
+  background: rgb(250, 250, 250);
+  color: rgb(117, 117, 117);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.8%;
+  text-align: left;
+  width: 246px;
+}
+
+.email__questions-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.email__questions-label {
+  color: rgb(102, 102, 102);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.8%;
+  text-align: left;
+}
+
+.email__questions-input {
+  padding: 12px;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 3px;
+  background: rgb(250, 250, 250);
+  width: 516px;
+  padding-bottom: 96px;
+  color: rgb(117, 117, 117);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.8%;
+  text-align: left;
+}
+
+.email__btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.email__btn-text {
+  color: rgb(117, 117, 117);
+  font-family: 'PT Sans Narrow';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.8%;
+  text-align: left;
+  max-width: 293px;
+  color: rgb(102, 102, 102);
+}
+
+.email__btn {
+  padding: 12px 24px;
+  color: rgb(250, 250, 250);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.8%;
+  text-align: left;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  background: rgb(187, 142, 52);
+  transition: all 0.4s ease;
+  &:hover {
+    background-color: rgb(218, 178, 99);
+    transform: scale(1.1);
+  }
+  &:active {
+    background-color: rgb(238, 207, 146);
+    transform: scale(1);
+  }
+}
