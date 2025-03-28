@@ -2,15 +2,12 @@
 
 
 .map {
-    background-image: url('../../image/map__bck-img.png');
-    background-repeat: no-repeat;
-    position: relative;
-    background-position: center;
+    
     padding: 129px 0px;
 }
 
 .map__wrapper {
-   
+    
     padding: 39px 62px;
     display: flex;
     flex-direction: column;
@@ -40,6 +37,11 @@
     max-width: 535px;
     width: 100%;
 }
+
+.map__iframe-wrapper {
+ 
+}
+
 
 .map__item-img {
     width: 33.47px;

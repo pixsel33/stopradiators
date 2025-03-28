@@ -69,3 +69,44 @@
     text-align: left;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 450px) {
+    
+    .garant {
+        
+    }
+    
+    .garant__wrapper {
+        
+    }
+    
+    .garant__header {
+        
+    }
+    
+    .garant__item-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .garant__items-wrapper {
+        
+    }
+    
+    .garant__img {
+        
+    }
+    
+    .garant__item-text-wrapper {
+        
+    }
+    
+    .garant__text {
+        
+    }
+    
+    .garant__span {
+        
+    }
+}

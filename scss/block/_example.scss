@@ -9,7 +9,7 @@
 }
 
 .example__wrapper {
-
+    
 }  
 
 .example__header {
@@ -105,4 +105,62 @@
         
     }
     
+}
+
+@media only screen and (max-width: 450px) {
+    
+    .example {
+        
+    }
+    
+    .container {
+        
+    }
+    
+    .example__wrapper {
+        
+    }
+    
+    .example__header {
+        
+    }
+    
+    .example__items-wapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .example__img {
+        width: 378px;
+    }
+    
+    .example__item-wrapper {
+        
+    }
+    
+    .example__location-text {
+        
+    }
+    
+    .example__price-wrapper {
+        
+    }
+    
+    .example__price-text {
+        
+    }
+    
+    .example__price-span {
+        
+    }
+    
+    .example__img-wrapper {
+        
+    }
+    
+    .example__item-img {
+        width: 79px;
+        height: auto;
+    }
 }

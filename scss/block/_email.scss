@@ -33,7 +33,7 @@
   text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 20px;
-
+  
 }
 
 .email__text {
@@ -218,3 +218,105 @@
     transform: scale(1);
   }
 }
+
+
+@media only screen and (max-width:450px) {
+  
+  .email {
+    
+  }
+  
+  .email__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email__span {
+    
+  }
+  
+  .email__header {
+    
+  }
+  
+  .email__text {
+    
+  }
+  
+  
+  .email__items-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email__img {
+    
+  }
+  
+  .email__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email__input-header {
+    
+  }
+  
+  .email__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email__for-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email__name-label {
+    
+  }
+  
+  .email__name-input {
+    
+  }
+  
+  .email__phone-label {
+    
+  }
+  
+  .email__phone-input {
+    
+  }
+  
+  .email__questions-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email__questions-label {
+    
+  }
+  
+  .email__questions-input {
+    
+  }
+  
+  .email__btn-wrapper {
+    
+  }
+  
+  .email__btn-text {
+    
+  }
+  
+  .email__btn {
+    
+  }
+}
+

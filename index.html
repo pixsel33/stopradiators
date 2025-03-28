@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>stopradiators</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./image/logotip.png">
 </head>
 <body>
     <header class="header">
@@ -29,13 +30,13 @@
                         </li>    
                     </ul>
                     <div class="header__location-wrapper">
-                        <img class="header__location-img" src="./image/header__location.svg" alt="location">
+                        <img class="header__location-img" src="./image/header__location.svg" alt="location" draggable="false">
                         <span class="header__location">г. Санкт-Петербург, Выборгское шоссе, д.212, строение 8</span>
                     </div>
                 </div>
                 <div class="header__bottom-wrapper">
                     <div class="header__logo-wrapper">
-                        <img class="header__logo" src="./image/header__logo.svg" alt="logo">
+                        <img class="header__logo" src="./image/header__logo.svg" alt="logo" draggable="false">
                         <div class="header__item-warpper">
                             <p class="header__text">
                                 МОНТАЖ ИНЖЕНЕРНЫХ СИСТЕМ
@@ -44,7 +45,7 @@
                         </div>
                     </div>
                     <div class="header__about-wrapper">
-                        <img class="header__about-img" src= "./image/header__headphone.svg" alt="headphones">
+                        <img class="header__about-img" src= "./image/header__headphone.svg" alt="headphones" draggable="false">
                         <div class="header__number-wrapper">
                             <p class="header__number-text">8 (812) 245-23-46</p>
                             <p class="header__number-text">8 (812) 438-32-58</p>
@@ -62,8 +63,8 @@
                 </div>
                 <div class="header__response-wrapper">
                     <div class="header__icons-wrapper">
-                        <img class="header__drop-img" src="./image/header__drop.svg" alt="drop">
-                        <img class="header__res-logo" src="./image/header__logo.svg" alt="logo">
+                        <img class="header__drop-img" src="./image/header__drop.svg" alt="drop" draggable="false">
+                        <img class="header__res-logo" src="./image/header__logo.svg" alt="logo" draggable="false">
                     </div>
                     <img class="header__response-icon" src="./image/header__headerphones.svg" alt="headphones">
                 </div>
@@ -125,27 +126,27 @@
                     <h2 class="function__header">Что  влияет  на стоимость водяного теплого  пола?</h2>
                     <div class="function__items-wrapper">
                         <div class="function__items">
-                            <img class="function__img" src="./image/function.png" alt="Размер строения">
+                            <img class="function__img" src="./image/function.png" alt="Размер строения" draggable="false">
                             <p class="function__text">Размер строения</p>
                         </div>
                         <div class="function__items">
-                            <img class="function__img" src="./image/function2.png" alt="Выбор материала">
+                            <img class="function__img" src="./image/function2.png" alt="Выбор материала" draggable="false">
                             <p class="function__text">Выбор материала</p>
                         </div>
                         <div class="function__items">
-                            <img class="function__img" src="./image/function3.png" alt="Способ монтажа">
+                            <img class="function__img" src="./image/function3.png" alt="Способ монтажа" draggable="false">
                             <p class="function__text">Способ монтажа</p>
                         </div>
                         <div class="function__items">
-                            <img class="function__img" src="./image/function4.png" alt="Техническое решение">
+                            <img class="function__img" src="./image/function4.png" alt="Техническое решение" draggable="false">
                             <p class="function__text">Техническое решение</p>
                         </div>
                         <div class="function__items">
-                            <img class="function__img" src="./image/function5.png" alt="Зональное управление">
+                            <img class="function__img" src="./image/function5.png" alt="Зональное управление" draggable="false">
                             <p class="function__text">Зональное управление</p>
                         </div>
                         <div class="function__items">
-                            <img class="function__img" src="./image/function6.png" alt="Толщина утеплителя">
+                            <img class="function__img" src="./image/function6.png" alt="Толщина утеплителя" draggable="false">
                             <p class="function__text">Толщина утеплителя</p>
                         </div>
                     </div>
@@ -155,35 +156,83 @@
         </section>
         <section class="function-text">
             <div class="container">
-                <div class="function__text-wrapper">
-                    <p class="function__drop">
+                <div class="function-text__wrapper">
+                    <p class="function-text__drop">
                         Всем понятно что чем больше здание, тем общая стоимость дороже. В то же время чем объект меньше, тем стоимость одного квадратного метра напольного отопления дороже. Это связано с небольшой разницей в стоимости распределительного оборудования, автоматики для меньших и больших площадей. 
                     </p>
                 </div>
             </div>
         </section>
-        <section class="big">
+        <!-- <section class="big">
             <div class="container">
                 <div class="big__wrapper">
                     <h2 class="big__header">Подберем и рассчитаем водяной теплый пол для Вашего объекта в течении 24 часов</h2>
-                    <img class="big__img" src="./image/big__img.png" alt="big">
+                    <div class="big__item-warpper">
+                        <div class="big__left-wrapper">
+                            <p class="big__left-text">В среднем на монтаж теплого пола нужно от 4 до 5 дней!</p>
+                            <h3 class="big__left-header">Какой тип вас интересует?</h3>
+                            <ul class="big__left-list">
+                                <li class="big__left-item">
+                                    <img src="./image/big1.png" alt="left" class="big___left-img" draggable="false">
+                                    <p class="big__left-item-text">
+                                        на матах с бобышками -300 руб.м2
+                                    </p>
+                                </li>
+                                <li class="big__left-item">
+                                    <img src="./image/big2.png" alt="left" class="big___left-img" draggable="false">
+                                    <p class="big__left-item-text">
+                                        на матах с бобышками -300 руб.м2
+                                    </p>
+                                </li>
+                                <li class="big__left-item">
+                                    <img src="./image/big3.png" alt="left" class="big___left-img" draggable="false">
+                                    <p class="big__left-item-text">
+                                        на матах с бобышками -300 руб.м2
+                                    </p>
+                                </li>
+                                <li class="big__left-item">
+                                    <img src="./image/big4.png" alt="left" class="big___left-img">
+                                    <p class="big__left-item-text">
+                                        на матах с бобышками -300 руб.м2
+                                    </p>
+                                </li>
+                            </ul>
+                            <div class="big__left-bottom-wrapper">
+                                <div class="big__left-bottom-item-wrapper">
+                                    <span class="big__left-span">Готово:<span class="big__left-span-span">0%</span></span>
+                                    <div class="big__left-bar"></div>
+                                </div>
+                                <div class="big__left-btn-wrapper">
+                                    <button class="big__left-scrol-btn"></button>
+                                    <button class="big__left-btn"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="big__right-wrapper">
+                            <p class="big__right-text"></p>
+                            <div class="big__right-item-wrapper">
+                                <p class="big__right-text"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="stage">
             <div class="container">
                 <div class="stage__wrapper">
                     <h2 class="stage__header">Как будет происходить работа по монтажу системы водяного теплого пола?</h2>
                     <ul class="stage__list">
                         <li class="stage__item">
-                            <img class="stage__img" src="./image/stage1.png" alt="stage">
+                            <img class="stage__img" src="./image/stage1.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Подготовка основания</span>
                                 <p class="stage__text">Пол выравнивается перед укладкой пенополистирола (сбиваются наплывы бетонного раствора)</p>
                             </div>
                         </li>
                         <li class="stage__item"> 
-                            <img class="stage__img" src="./image/stage2.png" alt="stage">
+                            <img class="stage__img" src="./image/stage2.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Укладка утеплителя</span>
                                 <p class="stage__text">
@@ -204,7 +253,7 @@
                             </div>
                         </li>
                         <li class="stage__item">
-                            <img class="stage__img" src="./image/stage4.png" alt="stage">
+                            <img class="stage__img" src="./image/stage4.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Монтаж коллектора</span>
                                 <p class="stage__text">
@@ -214,7 +263,7 @@
                             </div>
                         </li>
                         <li class="stage__item">
-                            <img class="stage__img" src="./image/stage5.png" alt="stage">
+                            <img class="stage__img" src="./image/stage5.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Опрессовка и проверка</span>
                                 <p class="stage__text">
@@ -224,21 +273,21 @@
                             </div>
                         </li>
                         <li class="stage__item">
-                            <img class="stage__img" src="./image/stage6.png" alt="stage">
+                            <img class="stage__img" src="./image/stage6.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Заливка стяжки</span>
                                 <p class="stage__text">После того как убедились, что система герметична выполняем цементно-песчанную стяжку.</p>
                             </div>
                         </li>
                         <li class="stage__item">
-                            <img class="stage__img" src="./image/stage7.png" alt="stage">
+                            <img class="stage__img" src="./image/stage7.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Установка автоматики</span>
                                 <p class="stage__text">После окончания чистовой отделки устанавливается автоматика для управления системой отопления.</p>
                             </div>
                         </li>
                         <li class="stage__item">
-                            <img class="stage__img" src="./image/stage8.png" alt="stage">
+                            <img class="stage__img" src="./image/stage8.png" alt="stage" draggable="false">
                             <div class="stage__item-item-wrapper">
                                 <span class="satge__span">Запуск системы в работу</span>
                                 <p class="stage__text">
@@ -256,7 +305,7 @@
                 <div class="example__wrapper">
                     <h2 class="example__header">примеры наших  работ </h2>
                     <div class="example__items-wapper">
-                        <img class="example__img" src="./image/example__big-img.png" alt="example">
+                        <img class="example__img" src="./image/example__big-img.png" alt="example" draggable="false">
                         <div class="example__item-wrapper">
                             <p class="example__location-text">лебяжье - 92 м2</p>
                             <div class="example__price-wrapper">
@@ -272,16 +321,16 @@
                                 <span class="example__price-span">2 недели</span>
                             </div>
                             <div class="example__img-wrapper">
-                                <img class="example__item-img" src="./image/example1.png" alt="example">
-                                <img class="example__item-img" src="./image/example2.png" alt="example">
-                                <img class="example__item-img" src="./image/example3.png" alt="example">
-                                <img class="example__item-img" src="./image/example4.png" alt="example">
-                                <img class="example__item-img" src="./image/example5.png" alt="example">
-                                <img class="example__item-img" src="./image/example6.png" alt="example">
-                                <img class="example__item-img" src="./image/example7.png" alt="example">
-                                <img class="example__item-img" src="./image/example8.png" alt="example">
-                                <img class="example__item-img" src="./image/example9.png" alt="example">
-                                <img class="example__item-img" src="./image/example10.png" alt="example">
+                                <img class="example__item-img" src="./image/example1.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example2.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example3.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example4.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example5.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example6.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example7.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example8.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example9.png" alt="example" draggable="false">
+                                <img class="example__item-img" src="./image/example10.png" alt="example" draggable="false">
                             </div>
                         </div>
                     </div>
@@ -293,10 +342,10 @@
                 <div class="auto__wrapper">
                     <h2 class="auto__header">Работаем с любыми типами зданий  </h2>
                     <div class="auto__img-wrapper">
-                        <img class="auto__img" src= "./image/auto1.png" alt="auto">
-                        <img class="auto__img" src= "./image/auto2.png" alt="auto">
-                        <img class="auto__img" src= "./image/auto3.png" alt="auto">
-                        <img class="auto__img" src= "./image/auto4.png" alt="auto">
+                        <img class="auto__img" src= "./image/auto1.png" alt="auto" draggable="false">
+                        <img class="auto__img" src= "./image/auto2.png" alt="auto" draggable="false">
+                        <img class="auto__img" src= "./image/auto3.png" alt="auto" draggable="false">
+                        <img class="auto__img" src= "./image/auto4.png" alt="auto" draggable="false">
                     </div>
                 </div>
             </div>
@@ -307,7 +356,7 @@
                     <h2 class="hot__header">Автоматическое управление отоплением  </h2>
                     <div class="hot__item-wapper">
                         <div class="hot__right-wrapper">
-                            <img class="hot__img" src="./image/hot.png" alt="hot">
+                            <img class="hot__img" src="./image/hot.png" alt="hot" draggable="false">
                             <h3 class="header__item-header">автоматическое управление</h3>
                             <p class="hot__item-text">
                                 Установленный в каждой отдельно регулируемой зоне комнатный терморегулятор "понимая", что достигнута заданная температура посылает сигнал на сервомоторы установленные на контурах уложенных в данной зоне. 
@@ -315,7 +364,7 @@
                             </p>
                         </div>
                         <div class="hot__left-wrapper">
-                            <img class="hot__img" src="./image/hot2.png" alt="hot">
+                            <img class="hot__img" src="./image/hot2.png" alt="hot" draggable="false">
                             <h3 class="header__item-header">Регулирование по таймеру</h3>
                             <p class="hot__item-text">
                                 На установленных в отдельно регулируемых зонах термостатических регуляторах есть возможность выставлять необходимую температуру по таймеру, что приводит
@@ -348,10 +397,10 @@
                             </p>
                         </div>
                         <div class="command__img-wrapper">
-                            <img src="./image/command1.png" alt="command" class="command-img">
-                            <img src="./image/command2.png" alt="command" class="command-img">
-                            <img src="./image/command3.png" alt="command" class="command-img">
-                            <img src="./image/command4.png" alt="command" class="command-img">
+                            <img src="./image/command1.png" alt="command" class="command-img" draggable="false">
+                            <img src="./image/command2.png" alt="command" class="command-img" draggable="false">
+                            <img src="./image/command3.png" alt="command" class="command-img" draggable="false">
+                            <img src="./image/command4.png" alt="command" class="command-img" draggable="false">
                         </div>
                     </div>
                 </div>
@@ -366,14 +415,14 @@
                     </h2>
                     <div class="garant__item-wrapper">
                         <div class="garant__items-wrapper">
-                            <img class="garant__img" src="./image/garant.svg" alt="garant">
+                            <img class="garant__img" src="./image/garant.svg" alt="garant" draggable="false">
                             <div class="garant__item-text-wrapper">
                                 <p class="garant__text">3 ГОДА</p>
                                 <span class="garant__span">гарантии на монтаж </span>
                             </div>
                         </div>
                         <div class="garant__items-wrapper">
-                            <img class="garant__img" src="./image/garant2.svg" alt="garant">
+                            <img class="garant__img" src="./image/garant2.svg" alt="garant" draggable="false">
                             <div class="garant__item-text-wrapper">
                                 <p class="garant__text">1 ГОД</p>
                                 <span class="garant__span">бесплатно ослуживаем объекты</span>
@@ -388,7 +437,7 @@
                 <div class="order__wrapper">
                     <h2 class="order__header"> Заказ монтажа тёплых полов в нашей компании</h2>
                     <div class="order__item-wrapper">
-                        <img class="order__img" src="./image/order__img.png" alt="order">
+                        <img class="order__img" src="./image/order__img.png" alt="order" draggable="false">
                         <div class="order__text-wrapper">
                             <p class="order__text">
                                 Компания ООО «Системы ОВК» специализируется на монтаже инженерных систем зданий любых целевых назначений. 
@@ -414,10 +463,10 @@
                     <div class="phone__items-wrapper">
                         <p class="phone__text">мы в вконтакте</p>
                         <div class="phone__imgs-wrapper">
-                            <img src="./image/phone__img2.png" alt="phone" class="phone__imgs">
-                            <img src="./image/phone__img3.png" alt="phone" class="phone__imgs">
-                            <img src="./image/phone__img4.png" alt="phone" class="phone__imgs">
-                            <img src="./image/phone__img5.png" alt="phone" class="phone__imgs">
+                            <img src="./image/phone__img2.png" alt="phone" class="phone__imgs" draggable="false">
+                            <img src="./image/phone__img3.png" alt="phone" class="phone__imgs" draggable="false">
+                            <img src="./image/phone__img4.png" alt="phone" class="phone__imgs" draggable="false">
+                            <img src="./image/phone__img5.png" alt="phone" class="phone__imgs" draggable="false">
                         </div>
                         <a class="phone__link" href="https://vk.com/stopradiators">https://vk.com/stopradiators</a>
                     </div>
@@ -625,25 +674,25 @@
             </div>
         </section>
         <section class="map">
-            <div class="container">
+            <div class="container">     
                 <div class="map__wrapper">
                     <h2 class="map__header">Наши Конакты</h2>
                     <div class="map__item-wrapper">
-                        <img class="map__item-img" src="./image/header__headerphones.svg" alt="map">
+                        <img class="map__item-img" src="./image/header__headerphones.svg" alt="map" draggable="false">
                         <div class="map__item-text-wrapper">
                             <p class="map__item-text">8 (812) 245-23-46  8 (812) 438-32-58</p>
                             <span class="map__item-span">Режим работы: Пн-Пт - 9:00- 19:00</span>
                         </div>
                     </div>
                     <div class="map__item-wrapper">
-                        <img class="map__item-img" src="./image/header__mail.svg" alt="map">
+                        <img class="map__item-img" src="./image/header__mail.svg" alt="map" draggable="false">
                         <div class="map__item-text-wrapper">
                             <p class="map__item-text">Почта:</p>
                             <span class="map__item-span">info@stopradiators.ru</span>
                         </div>
                     </div>
                     <div class="map__item-wrapper">
-                        <img class="map__item-img" src="./image/header__location.svg" alt="map">
+                        <img class="map__item-img" src="./image/header__location.svg" alt="map" draggable="false">
                         <div class="map__item-text-wrapper">
                             <p class="map__item-text">
                                 194356, г. Санкт-Петербург, Выборгское шоссе, д.212 «Выставка коттеджей в Озерках»,
@@ -660,18 +709,27 @@
             <div class="footer__wrapper">
                 <div class="footer__logo-wrapper">
                     <a class="footer__logo-link" href="#">
-                        <img class="footer__logo" src="" alt="logo">
+                        <img class="footer__logo" src="./image/header__logo.svg" alt="logo" draggable="false">
                     </a>
                     <div class="footer__logo-item-wrapper">
-                        <p class="footer__logo-text"></p>
-                        <span class="footer__logo-span"></span>
+                        <p class="footer__logo-text">2022 © «StopRadiators» Все права защищены.</p>
+                        <a class="footer__logo-icon-wrapper" href="">
+                            <img class="footer__icon-img" src= "./image/footer__icon.svg" alt="footer" draggable="false">
+                            <img class="footer__icon-img" src= "./image/footer__icon1.svg" alt="footer" draggable="false">
+                            <img class="footer__icon-img" src= "./image/footer__icon2.svg" alt="footer" draggable="false">
+                        </a>
                     </div>
                 </div>
                 <div class="footer__items-wrapper">
-                    <p class="footer__itemtext"></p>
-                    <img class="footer__img" src="" alt="footer">
-                    <img class="footer__img" src="" alt="footer">
-                    <img class="footer__img" src="" alt="footer">
+                    <p class="footer__item-text">
+                        Мы принимаем
+                        к оплате карты:
+                    </p>
+                    <div class="footer__item-img-wrapper">
+                        <img class="footer__img" src="./image/footer__img1.svg" alt="footer" draggable="false">
+                        <img class="footer__img" src="./image/footer__img2.svg" alt="footer" draggable="false">
+                        <img class="footer__img" src="./image/footer__img3.svg" alt="footer" draggable="false">
+                    </div>
                 </div>
             </div>
         </div>

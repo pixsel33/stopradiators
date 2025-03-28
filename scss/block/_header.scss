@@ -14,7 +14,7 @@
 .header__top-item-wrapper {
     display: flex;
     align-items: center;
-    max-width: 1172px;
+    max-width: 1186px;
     width: 100%;
     padding-bottom: 22px;
     justify-content: space-between;
@@ -24,10 +24,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 584px;
+    width: 100%;
 }
 
 .header__top-item-liink {
-    padding-right: 60px;
     color: inherit;
     color: rgb(250, 250, 250);
     font-family: 'PT Sans Narrow';
@@ -118,6 +119,37 @@
     width: 100%;
 }
 
+.header__about-img {
+    
+}
+
+.header__number-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__number-text {
+    color: rgb(250, 250, 250);
+    font-family: 'PT Sans Narrow';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover {
+        color: rgb(201, 204, 207);
+        font-family: 'PT Sans Narrow';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.8%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
 .header__btn {
     padding: 5px 31px;
     color: rgb(250, 250, 250);
@@ -141,6 +173,56 @@
     &:active {
         background-color: rgb(238, 207, 146);
         transform: scale(1);
+    }
+}
+
+.header__mail-img {
+    
+}
+
+.header__mail-wrapper {
+    
+}
+
+.heaeder__mail-text {
+    color: rgb(250, 250, 250);
+    font-family: 'PT Sans Narrow';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover {
+        color: rgb(201, 204, 207);
+        font-family: 'PT Sans Narrow';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.8%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.header__mail-span {
+    color: rgb(250, 250, 250);
+    font-family: 'PT Sans Narrow';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8%;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover {
+        color: rgb(201, 204, 207);
+        font-family: 'PT Sans Narrow';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.8%;
+        text-align: left;
+        text-transform: uppercase;
     }
 }
 

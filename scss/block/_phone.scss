@@ -70,3 +70,56 @@
     text-align: left;
     text-decoration-line: underline;
 }
+
+@media only screen and (max-width:450px){
+    
+    .phone {
+        
+    }
+    
+    .phone__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .phone__img {
+        width: 161.27px;
+        height: 325.5px;
+        margin-right: 15px;
+    }
+    
+    .phone__items-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .phone__text {
+        
+    }
+    
+    .phone__imgs-wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+        max-width: 165px;
+        width: 100%;
+    }
+    
+    .phone__imgs {
+        width: 80.27px;
+        height: 160.01px;
+    }
+    
+    .phone__link {
+        color: rgb(187, 142, 52);
+        font-family: 'PT Sans Narrow';
+        font-size: 9.29px;
+        font-weight: 700;
+        line-height: 21.07px;
+        letter-spacing: 0.8%;
+        text-align: right;
+        text-decoration-line: underline;
+    }
+}

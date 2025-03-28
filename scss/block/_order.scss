@@ -80,3 +80,44 @@
         background: rgb(240, 200, 119);
     }
 }
+
+
+@media only screen and (max-width: 450px) {
+    
+    .order {
+        
+    }
+    
+    .order__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .order__header {
+        
+    }
+    
+    .order__item-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .order__img {
+        width: 343px;
+        height: 250px;
+    }
+    
+    .order__text-wrapper {
+        
+    }
+    
+    .order__text {
+        margin-bottom: 20px;
+    }
+    
+    .oreder__btn {
+        
+    }
+}

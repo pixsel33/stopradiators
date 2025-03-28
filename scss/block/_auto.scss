@@ -32,3 +32,19 @@
     width: 320px;
     height: 359px;
 } 
+
+@media only screen and (max-width: 450px) {
+    .auto {
+        display: none;
+    }
+    .container {
+    }
+    .auto__wrapper {
+    }
+    .auto__header {
+    }
+    .auto__img-wrapper {
+    }
+    .auto__img {
+    }
+}

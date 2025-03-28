@@ -91,3 +91,42 @@
     text-align: left;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width:450px)  {
+    
+    .drop {
+        
+    }
+    
+    .drop__wrapper {
+        
+    }
+    
+    .drop__header {
+        
+    }
+    
+    .drop__list {
+        
+    }
+    
+    .drop__item {
+        max-width: 343px;
+    }
+    
+    .drop__items-wrapper {
+        
+    }
+    
+    .drop__number {
+        
+    }
+    
+    .drop__text {
+        
+    }
+    
+    .drop__drop-text {
+        
+    } 
+}
